@@ -1,0 +1,50 @@
+{
+    "plugins":[
+        "expandable-chapters",
+        "tbfed-pagefooter",
+        "splitter",
+        "lightbox",
+        "anchor-navigation-ex",
+        "katex",
+        "search-pro",
+        "code",
+        "github"],
+    "pluginsConfig":{
+        "theme-default": {
+            "showLevel": false
+        },
+        "tbfed-pagefooter":{
+            "copyright":"Copyright &copy captainchen",
+            "modify_format":"YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": false
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "github": {
+            "url": "https://github.com/ThisisGame/supervision_book"
+        }
+    },
+    "openresty":{
+        "zh":{
+            "bookName":"ImGui-WebAssembly",
+            "codeResourcesDownloadUrl":"https://github.com/ThisisGame/supervision_book",
+            "githubRepositoryUrl":"https://github.com/ThisisGame/supervision_book",
+            "beginNotice":"\n```text \n「supervision book」是一本开源电子书，PDF/随书代码/资源下载： https://github.com/ThisisGame/supervision_book \n```",
+            "beginNoticeShowConditionNeedLineNum":10,
+            "antiCollectorAdTxt":"<a id=\"antiCollectorAdTxt\" href=\"https://github.com/ThisisGame/supervision_book\">「supervision book」是一本开源电子书，PDF/随书代码/资源下载： https://github.com/ThisisGame/supervision_book</a>"
+        },
+        "en":{
+            "bookName":"ImGui-WebAssembly",
+            "codeResourcesDownloadUrl":"https://github.com/ThisisGame/supervision_book",
+            "githubRepositoryUrl":"https://github.com/ThisisGame/supervision_book",
+            "beginNotice":"\n```text \n「supervision book」是一本开源电子书，PDF/随书代码/资源下载： https://github.com/ThisisGame/supervision_book \n```",
+            "beginNoticeShowConditionNeedLineNum":10,
+            "antiCollectorAdTxt":"<a id=\"antiCollectorAdTxt\" href=\"https://github.com/ThisisGame/supervision_book\">「supervision book」是一本开源电子书，PDF/随书代码/资源下载： https://github.com/ThisisGame/supervision_book</a>"
+        }
+        
+    }
+}

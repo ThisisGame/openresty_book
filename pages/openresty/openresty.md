@@ -10,7 +10,7 @@ OpenResty的功能就有很多，基本上围绕着http等协议的各个阶段�
 
 你可以将OpenResty当做Nginx来用，例如之前做微信小游戏时，微信要求使用加密的wss(相当于https)，但是我们服务器是skynet只支持ws(相当于http)，我们就用它来做wss转ws。
 
-也可以用来做网站的后台，例如我的教程网站游戏人生(https://www.thisisgame.com.cn/)就是OpenResty做后台，用Lua解析Markdown返回给浏览器。
+也可以用来做网站的后台，例如我的教程网站 [游戏人生](https://www.thisisgame.com.cn/ "跳转到游戏人生")，就是OpenResty做后台，用Lua解析Markdown返回给浏览器。
 
 
 
